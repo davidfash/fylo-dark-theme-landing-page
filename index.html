@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+  <!--Link to Font Family-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="main.css" />
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <!--Navigation Link-->
+  <nav>
+    <img src="./images/logo.svg" alt="" class="logo">
+    <ul class="nav-list">
+       <li><a href="#">Features</a></li>
+       <li><a href="#">Team</a></li>
+       <li><a href="#">Sign in</a></li>
+  </ul>
+  </nav>
+  <!--Main content-->
+  <section class="main">
+    <img src="./images/illustration-intro.png" 
+    alt="Illustration Image">
+    <h2>All your files in one location,<br> accessible
+      anywhere.
+    </h2>
+    <h4>Fylo stores all your most important files
+      in one secure location.<br>Access them wherever you need,
+       share and collaborate with <br>friends, family and coworkers.
+    </h4>
+    <button class="cta">get started</button>
+  </section>
+  <!--Section OFFERS-->
+  <section class="offers">
+    <div class="container">
+      <div class="row spread">
+        <div class="col-lg-6 center">
+          <img src="./images/icon-access-anywhere.svg"
+           alt="Access files anywhere">
+          <h2>Access your files, anywhere</h2>
+          <h4>The ability to use a smartphone, tablet or 
+            computer<br>to access your account means your files
+            follow you <br> everywhere.
+          </h4>
+        </div>
+        <div class="col-lg-6 center">
+          <img src="./images/icon-security.svg" 
+          alt="Your files are secure">
+          <h2>Security you can trust</h2>
+          <h4>2-factor authentication and user-controlled encryption
+            are<br>just a couple of the security features we allow to 
+            help<br>secure your files.
+          </h4>
+        </div>
+      </div>
+      <div class="row spread">
+        <div class="col-lg-6 center">
+          <img src="./images/icon-collaboration.svg" 
+          alt="Collaborate on the go">
+          <h2>Real-time collaboration</h2>
+          <h4>Securely share files and folders with friends, family
+            and<br>colleagues for live collaboration.No
+            email attachments<br> required.
+          </h4>
+        </div>
+        <div class="col-lg-6 center">
+        <img src="./images/icon-any-file.svg"
+         alt="All files are supported">
+        <h2>Store any type of file</h2>
+        <h4>Whether you're sharing holiday's photos or work
+          <br>documents,Fylo has you covered allowing for all file
+          <br>types to be securely stored and shared.
+        </h4></div>
+      </div>
+    </div>
+  </section>
+  <!--SectionPoductivity-->
+  <section class="productivity">
+    <div class="productivity-image">
+      <img src="./images/illustration-stay-productive.png"
+       alt="Remain productive">
+    </div>
+    <div class="productivity-content">
+      <h1>Stay productive, <br>wherever you are</h1>
+      <p class="pt">Never let location be an issue when accessing your files
+        .Fylo has you<br>covered for all of your file storage needs.
+      </p><br>
+      <p class="pb">Securely share files and folders with friends, family
+        and colleagues for live<br>collaboration.No email attachments
+        required.
+      </p>
+      <a href="#">See how Fylo works <img src="./images/icon-arrow.svg"
+        alt="Right Arrow">
+      </a>
+    </div>
+  </section>
+  <!--Section Testimonials-->
+  <section class="testimonials">
+    <div class="container">
+      <img src="./images/bg-quotes.png" alt="Big Quotes" class="quotes">
+      <div class="row flex">
+        <div class="col-lg-4 border inner-flex">
+          <p>Fylo has improved our team productivity by <br>
+          an order of magnitude. Since making the<br>switch, 
+        our team has become a well-oiled <br>collaboration machine</p>
+      <div class="inner">
+        <img src="./images/profile-1.jpg" alt="">
+        <div class="testimonial-info">
+          <h3>Satish Patel</h3>
+          <h5>Founder and CTO, Huddie</h5>
+        </div>
+      </div> 
+      </div>
+       <div class="col-lg-4 border inner-flex">
+          <p>Fylo has improved our team productivity by <br>
+          an order of magnitude. Since making the<br>switch, 
+        our team has become a well-oiled <br>collaboration machine</p>
+      <div class="inner">
+        <img src="./images/profile-2.jpg" alt="">
+        <div class="testimonial-info">
+          <h3>Bruce Mackenzie</h3>
+          <h5>Founder and CEO, Huddie</h5>
+        </div>
+      </div> 
+      </div>
+      <div class="col-lg-4 border inner-flex">
+        <p>Fylo has improved our team productivity by <br>
+        an order of magnitude. Since making the<br>switch, 
+      our team has become a well-oiled <br>collaboration machine</p>
+    <div class="inner">
+      <img src="./images/profile-3.jpg" alt="">
+      <div class="testimonial-info">
+        <h3>Iva Boyd</h3>
+        <h5>Founder and CEO, Huddie</h5>
+      </div>
+    </div> 
+    </div>
+      </div>
+    </div>
+  </section>
+  <!--Section Relatively Positioned-->
+  <section class="floating center">
+    <h1>Get access early today</h1>
+    <h4>It only takes a minute to sign up and our free starter tier is extremely
+      generous.<br> If you have any questions, our support team would be happy to help 
+      you.
+    </h4>
+    <div class="buttons">
+      <input type="text" placeholder="email@example.com">
+      <button class="cta">get started today</button>
+    </div>
+  </section>
+  <!--Footer-->
+  <footer>
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-2 width only">
+          <img src="./images/logo.svg" alt="" class="logo">
+          <div class="outer">
+            <img src="./images/icon-location.svg" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum rem excepturi sit! Expedita rerum quos, recusandae temporibus deserunt reiciendis in aliquam, minus quod unde, 
+              pariatur magnam autem consectetur nesciunt velit.</p>
+            </div>
+          </div>
+        <div class="col-lg-2">
+          <ul>
+            <li><a href="#"><img src="./images/icon-phone.svg" 
+              alt="Phone">+1-543-123-4567</a></li>
+              <li><a href="#"><img src="./images/icon-email.svg" 
+                alt="Phone">example@fylo.com</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <ul class="socials">
+            <li>
+              <i class="lab la-facebook-f"></i>
+            </li>
+            <li>
+              <i class="lab la-twitter"></i>
+            </li>
+            <li>
+              <i class="lab la-instagram"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">DavidFash</a>.
+    </p>
+  </footer>
+</body>
+</html>

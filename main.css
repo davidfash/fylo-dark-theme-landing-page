@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(218, 28%, 13%);
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 4em;
+  font-family: "Raleway", sans-serif;
+}
+nav img {
+  width: 150px;
+  height: 50px;
+  display: block;
+}
+nav .nav-list {
+  list-style: none;
+  padding-top: 20px;
+}
+.nav-list li {
+  display: inline-block;
+  padding-left: 25px;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.main {
+  background-color: hsl(217, 28%, 15%);
+  padding: 5em 0;
+  text-align: center;
+}
+.main img {
+  max-width: 100%;
+}
+h2 {
+  font-size: 23px;
+  padding-top: 1em;
+  color: hsl(0, 0%, 100%);
+  font-family: "Raleway", sans-serif;
+}
+h4 {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5em;
+  padding-top: 1em;
+  color: hsl(0, 0%, 100%);
+  font-family: "Raleway", sans-serif;
+}
+.center {
+  color: hsl(0, 0%, 100%);
+  padding-top: 3em;
+  text-align: center;
+}
+.main button {
+  margin-top: 2em;
+}
+.cta {
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  border: transparent;
+  border-radius: 50px;
+  padding: 15px 55px;
+  text-transform: capitalize;
+  color: hsl(0, 0%, 100%);
+  font-family: "Raleway", sans-serif;
+}
+.offers {
+  padding-top: 5em;
+}
+.spread {
+  display: flex;
+  justify-content: space-around;
+}
+.productivity {
+  padding-top: 10em;
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 35px;
+  line-height: 1.4em;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.productivity .productivity-content p {
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  line-height: 1.5em;
+  font-weight: none;
+}
+.pt {
+  padding-top: 2em;
+}
+.pb {
+  padding-bottom: 1em;
+}
+.productivity .productivity-content a {
+  font-size: 14px;
+  color: hsl(176, 68%, 64%);
+  margin-top: 2em;
+  text-decoration: none;
+  font-weight: none;
+  border-bottom: 2px solid hsl(176, 68%, 64%);
+}
+.testimonials {
+  /* background-color: hsl(219, 30%, 18%); */
+  padding: 5em 0;
+  color: hsl(0, 0%, 100%);
+}
+.testimonials img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.testimonials .quotes {
+  position: relative;
+  left: 50px;
+  bottom: -21px;
+  z-index: -1;
+  /*The z-index property specifies the 
+  stack order of an element.An element 
+  with greater stack order is always in
+   front of an element with a lower stack
+    order.*/
+}
+.testimonials p {
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+.testimonials .testimonial-info h5 {
+  padding-top: 0.5em;
+  font-weight: 400;
+  font-size: 13px;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+.inner-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px 25px;
+}
+.inner {
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.border {
+  border: 2px solid hsl(219, 30%, 18%);
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 2%;
+  height: fit-content;
+}
+.floating {
+  border: 2px solid hsl(217, 28%, 15%);
+  background-color: hsl(217, 28%, 15%);
+  max-width: 70%;
+  padding: 20px 25px;
+  border-radius: 15px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+}
+.floating .buttons {
+  padding-top: 2em;
+}
+.floating input {
+  border-radius: 50px;
+  padding: 17px 50px;
+  margin-right: 15px;
+  border: transparent;
+}
+.floating input::placeholder {
+  text-align: left;
+  opacity: 0.6;
+}
+footer {
+  padding: 10em 0 5em 0;
+  margin-top: 5em;
+  background-color: hsl(216, 53%, 9%);
+  color: hsl(0, 0%, 100%);
+}
+.width {
+  width: 30%;
+}
+footer .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+footer .row .col-lg-2:not(:nth-child(1)) {
+  padding-top: 50px;
+}
+.outer {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+.outer img {
+  width: 50px;
+  height: 25px;
+  display: block;
+}
+.outer p {
+  padding-left: 20px;
+  line-height: 1.7em;
+  font-size: 14px;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  padding-top: 15px;
+}
+footer ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+footer ul li a img {
+  padding-right: 20px;
+}
+footer .socials li {
+  display: inline-block;
+  padding-right: 20px;
+}
+footer .socials li i {
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 25px;
+}
+@media only screen and (max-width: 800px) {
+  .spread {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 35px;
+  }
+  .offers h2 {
+    font-size: 21px;
+    padding-top: 1em;
+    color: hsl(0, 0%, 100%);
+    font-family: "Raleway", sans-serif;
+  }
+  .offers h4 {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding-top: 1em;
+    color: hsl(0, 0%, 100%);
+    font-family: "Raleway", sans-serif;
+  }
+  .offers img {
+    width: 80px;
+    height: 80px;
+  }
+  .productivity {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .productivity .productivity-image img {
+    display: block;
+    margin: 0 auto;
+    padding: 5em 2em;
+    width: 100vw;
+  }
+  .productivity .productivity-content {
+    padding: 3em 2em;
+    text-align: justify;
+  }
+  .testimonials {
+    padding: 5em 0;
+  }
+  .testimonials .flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 5em;
+  }
+  .border {
+    border: 2px solid hsl(219, 30%, 18%);
+    margin-top: 3em;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 2%;
+    height: fit-content;
+  }
+  .testimonials .inner {
+    padding-top: 2em;
+  }
+  .testimonials .quotes {
+    position: relative;
+    left: 70px;
+    bottom: -62px;
+    z-index: -1;
+  }
+  .floating {
+    max-width: 60%;
+    padding: 20px 25px 50px 25px;
+    border-radius: 15px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+  }
+  .floating .buttons input {
+    width: 100%;
+  }
+  .floating .buttons input::placeholder {
+    text-align: center;
+  }
+  .floating .buttons .cta {
+    width: 100%;
+    margin-top: 20px;
+  }
+  footer {
+    margin-top: 0;
+    padding-top: 20em;
+  }
+  footer .row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  footer .socials {
+    text-align: center;
+  }
+  .width {
+    width: 80%;
+  }
+  .outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .offers {
+    width: 100vw;
+  }
+  .spread {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .main img {
+    display: block;
+    margin: 0 auto;
+    padding: 3em 2em;
+    width: 100vw;
+  }
+  .productivity {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .productivity .productivity-image img {
+    display: block;
+    margin: 0 auto;
+    padding: 5em 2em;
+    width: 100vw;
+  }
+  .productivity .productivity-content {
+    padding: 3em 2em;
+    text-align: justify;
+  }
+  .testimonials {
+    padding: 5em 0;
+  }
+  .testimonials .flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 5em;
+  }
+  .border {
+    border: 2px solid hsl(219, 30%, 18%);
+    margin-top: 3em;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 2%;
+    height: fit-content;
+  }
+  .testimonials .inner {
+    padding-top: 2em;
+  }
+  .testimonials .quotes {
+    position: relative;
+    left: 70px;
+    bottom: -62px;
+    z-index: -1;
+  }
+  .floating {
+    max-width: 70%;
+    padding: 20px 25px 50px 25px;
+    border-radius: 15px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+  }
+  .floating .buttons input {
+    width: 100%;
+  }
+  .floating .buttons input::placeholder {
+    text-align: center;
+  }
+  .floating .buttons .cta {
+    width: 100%;
+    margin-top: 20px;
+  }
+  footer {
+    margin-top: 0;
+    padding-top: 20em;
+  }
+  footer .row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  footer .socials {
+    text-align: center;
+  }
+  .width {
+    width: auto;
+  }
+  .outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  nav .logo {
+    display: none;
+  }
+  .offers {
+    padding-top: 5em;
+  }
+  .spread {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
